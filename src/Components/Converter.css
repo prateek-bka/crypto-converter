@@ -1,0 +1,49 @@
+:root {
+  --primary: hsla(0, 0%, 95%, 0.65);
+  --secondary: hsla(0, 0%, 89%, 0.65);
+  --third: hsl(254, 55%, 90%);
+  --fourth: ;
+}
+
+.converter-container {
+  background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url("../Assets/crypto-logo.png") no-repeat center center / cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.converter-card {
+  background: linear-gradient(var(--primary), var(--secondary));
+  text-align: center;
+  min-width: 400px;
+}
+
+.converter-select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+h1,
+p {
+  color: rgb(1, 1, 92);
+}
+
+.converter-container-bottom,
+a {
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+
+  color: rgb(221, 221, 221);
+  text-align: center;
+  text-decoration: none;
+  gap: 5%;
+}
+
+.converter-container-bottom > div > a {
+  margin-left: 2%;
+  margin-top: 1%;
+}
